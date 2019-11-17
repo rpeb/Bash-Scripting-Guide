@@ -23,10 +23,10 @@ echo
 while read p  #reads one line into p at a time
 do
   echo $p
-done < whileloop.sh
+done < while-loop.sh
 
 #Method 2. using cat command and pipe
-cat whileloop.sh | while read p
-do
-  echo $p
-done
+# cat whileloop.sh | while read p
+# do
+#   echo $p
+# done

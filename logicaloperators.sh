@@ -9,7 +9,7 @@
 
 age=50
 
-if [ $age -gt 18 ] && [ $age -lt 30 ]
+if [[ $age -lt 25 && $age -gt 18 ]]
 then
   echo "Condition true"
 else 

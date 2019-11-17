@@ -31,13 +31,13 @@
 read -p "Enter the character: " var
 case $var in
   [a-z] ) 
-    echo "character lies within [a-z]";;
+    echo "character lies within [a-z]" ;;
   [A-Z] )
-    echo "character lies within [A-Z]";;
+    echo "character lies within [A-Z]" ;;
   [0-9] )
-    echo "character lies within [0-9]";;
+    echo "character lies within [0-9]" ;;
   ? )
-    echo "Special character $var entered";;
+    echo "Special character $var entered" ;;
   * )
     echo "Unknown input";;
 esac
